@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(24, 24, 24);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#main h1 {
+    font-size: 40px;
+}
+
+.card-section {
+    padding: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.font-card {
+    padding: 20px;
+
+}
+
+.font-card h3 {
+    font-size: 25px;
+}

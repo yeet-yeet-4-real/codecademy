@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #1f1f1f;
+    font-family: 'Inter', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+    height: 70px;
+    background-color: #d33535;
+}
+
+#header .logo {
+    color: #ffffff;
+}
+/* 
+#navbar {
+    
+} */
+
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#navbar ul li {
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+#navbar ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid hsl(125, 100%, 60%);
+}
+
+#hero-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background: url('../img/animated-gif-man-in-motion.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+#hero-section::before {
+    position: absolute;
+    content: "";
+    background-color: #000000;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#hero-section h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    z-index: 2;
+}
+
+#hero-section p {
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    z-index: 2;
+}
+
+.color {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+#content {
+    margin: 20px auto;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 0 2px 10px 6px rgba(0, 0, 0, 0.7);
+}
+
+#content h2 {
+    padding: 20px 0;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.color {
+    /* background-color: hsl(0, 0%, 11%); */
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.display {
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+figcaption p {
+    text-align: center;
+    padding: 10px;
+}
+
+.red-1 {
+    background-color: hsl(0, 100%, 50%);
+    text-align: center;
+}
+
+.red-2 {
+    background-color:hsl(0, 80%, 50%);
+}
+
+.red-3 {
+    background-color:hsl(0, 60%, 50%);
+}
+
+.red-4 {
+    background-color:hsl(0, 40%, 50%);
+}
+
+.blue-1 {
+    background-color:hsl(240, 100%, 50%);
+}
+
+.blue-2 {
+    background-color:hsl(240, 90%, 50%);
+}
+
+.blue-3 {
+    background-color:hsl(240, 80%, 50%);
+}
+
+.blue-4 {
+    background-color:hsl(240, 70%, 50%);
+}
+
+.green-1 {
+    background-color: hsl(120, 100%, 50%);
+}
+
+.green-2 {
+    background-color: hsl(120, 70%, 50%);
+}
+
+.green-3 {
+    background-color: hsl(120, 40%, 50%);
+}
+
+.green-4 {
+    background-color: hsl(120, 10%, 50%);
+}
+
+figcaption > h3 {
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    height: 75px;
+    background-color: #d33535;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.card img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
